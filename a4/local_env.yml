@@ -1,0 +1,22 @@
+name: local_nmt
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch
+  - setuptools==59.5.0
+  - numpy
+  - scipy
+  - protobuf==3.20.1
+  - tqdm
+  - docopt
+  - nltk
+  - torchvision
+  - pip
+  - pip:
+    - sentencepiece
+    - sacrebleu
+    - tensorboard
+    - einops
